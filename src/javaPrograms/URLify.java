@@ -25,7 +25,7 @@ public class URLify {
 		int space_count = 0, i = 0;
 		for (i = 0; i < str.length; i++)
 			if (str[i] == ' ')
-				space_count++;
+				space_count++; 
 
 		// count spaces and find current length
 		while (str[i - 1] == ' ') {
